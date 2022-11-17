@@ -6,8 +6,8 @@ import Quotebox from "./components/Quotebox";
 export default function App() {
   const [quotes, setQuotes] = useState([
     {
-      quote: "Zitat",
-      author: "Ich",
+      quote: "",
+      author: "",
     },
   ]);
   const [currentQuote, setCurrentQuote] = useState(0);
